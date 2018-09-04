@@ -20,4 +20,9 @@
 * [`minmax_scaling() from mlxtend.preprocessing`](http://rasbt.github.io/mlxtend/api_subpackages/mlxtend.preprocessing/#minmax_scaling) 
 * [Box Cox Transformation](https://en.wikipedia.org/wiki/Power_transform#Box%E2%80%93Cox_transformation) 
 * [`boxcox() from scipy.stats`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.boxcox.html) 
-* 
+
+### Day 3: Parsing Dates 
+* `pd.to_datetime(landslides['date'], format = "%m/%d/%y")`
+* `pd.to_datetime(landslides['Date'], infer_datetime_format=True)` 
+* `landslides['date_parsed'].dt.day` 
+
