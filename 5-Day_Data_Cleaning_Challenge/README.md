@@ -26,3 +26,9 @@
 * `pd.to_datetime(landslides['Date'], infer_datetime_format=True)` 
 * `landslides['date_parsed'].dt.day` 
 
+### Day 4: Character Encodings 
+* UTF-8 is the standard text encoding. All Python code is in UTF-8 and, ideally, all your data should be as well. 
+* `str.encode("utf-8", errors = "replace")` 
+* `str.decode("utf-8")` 
+* `chardet.detect(file.read(1000))` 
+
