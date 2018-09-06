@@ -32,3 +32,6 @@
 * `str.decode("utf-8")` 
 * `chardet.detect(file.read(1000))` 
 
+### Day 5: Inconsistent Data Entry 
+![](./Day_5/fuzzy_func.png) 
+
